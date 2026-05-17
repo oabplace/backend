@@ -49,7 +49,7 @@ router.post('/', async (req, res) => {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.sk_test_41e5f44b96e9787e677f871839e79bf885fc1b2d}`,
+          Authorization: `Bearer ${process.env.PAYSTACK_SECRET_KEY}`,
           'Content-Type': 'application/json'
         }
       }
